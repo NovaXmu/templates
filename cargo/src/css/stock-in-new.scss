@@ -1,0 +1,44 @@
+@import "utils";
+.stock-in-new {
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align: center;
+	padding: 5px;
+	position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 90px;
+  top: 0;
+  padding-right: 95px;
+  padding-top: 75px;
+  box-sizing: border-box;
+	form {
+		color: $prim-color;
+		padding-right: 1rem;
+		
+		input, select, option, [contenteditable=true] {
+			border: 2px solid $prim-color;
+		}
+	}
+
+	.br-days {
+		input {
+			width: 80%;
+		}
+
+		span {
+			padding-left: 8px;
+		}
+	}
+	
+	button {
+		width: 100%;
+		padding: .5em;
+		background-color: $prim-color !important;
+	}
+	
+	.btn-wrap {
+		text-align: right;
+		padding: 10px;
+	}
+}

@@ -1,0 +1,86 @@
+.head{
+	min-height:100px;
+	background: -moz-linear-gradient(top,#baa4df,#8fbee0); /*Mozilla*/
+    background: -webkit-gradient(linear, center top, center bottom, from(#baa4df), to(#8fbee0)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(top, #baa4df, #8fbee0); /*new gradient for Webkit*/
+    background: -o-linear-gradient(top, #baa4df, #8fbee0); /*Opera11*/
+}
+.avator{
+	width:100px;
+	height:100px;
+	border-radius: 100px;
+	border-width:5px;
+	border-style: double;
+	border-color:white;
+	position:absolute;
+	top:-50px;
+	left:6%;
+}
+.content{
+	margin-top:40px;
+	text-align: left;
+}
+.name{
+	text-align:right;
+	font-size:25px;
+	color:white;
+	margin-bottom: 2em;
+}
+.time{
+	text-align:right;
+	font-size:16px;
+	color:white;
+	white-space: nowrap;
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+}
+.main{
+	padding-top: 20px;
+}
+p{
+	word-break:break-all;
+}
+.comment{
+	margin-top:10px;
+}
+.content p{
+	font-size:20px;
+	color:black;
+}
+.comment ul{
+	padding:0px;
+	color:black;
+}
+.comment ul li img.commentAvator{
+	width:40px;
+	height:40px;
+	border-radius: 40px;
+}
+.operate{
+	float:right;
+}
+.great{
+	color:red;
+}
+.comment ul li{
+	text-align: left;
+}
+.reply{
+	background-color: #eee;
+}
+.reply ul li span{
+	color:#56abe4;
+}
+.btn-replyComment{
+	float: right;
+    background-color: #396E84;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+.btn-viewComment,.btn-hideComment{
+	float:right;
+	color:#8b93e8;
+}
+

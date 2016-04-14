@@ -1,0 +1,69 @@
+.course,.new_course,.manage,.new_manager{
+	border:solid;
+	padding:0px;
+	margin-top: 10px;
+	border-color: #60a9d6;
+}
+#all_course{
+	min-height: 250px;
+	padding:0px;
+}
+.add_course,.add_manager{
+	height:50px;
+	text-align:left;
+	color:#60a9d6;
+	font-size:20px;
+	line-height: 50px;
+}
+.add_course img, .add_manager img{
+	width:15px;
+	height:15px;
+	margin-top: -5px;
+}
+.table{
+	font-size:18px;
+}
+.table>thead{
+	background-color:#60a9d6;
+	color:#fff;
+}
+.table>thead>tr,.table>tbody>tr{
+	height:50px;
+}
+.table>thead>tr>th,.table>tbody>tr>td{
+	vertical-align: middle;
+	text-align: center;
+}
+
+.fixed-table-pagination .pagination-detail{
+    display: none;
+}
+.fixed-table-pagination .pagination a{
+	font-size:15px;
+}
+.new_course table>tbody>tr,.new_manager table>tbody>tr{
+	height:30px;
+}
+.new_course table>thead>tr>th,.new_manager table>thead>tr>th{
+	text-align: center;
+}
+.new_course table>tbody>tr>td,.new_manager table>tbody>tr>td{
+	padding: 0px;
+}
+.new_course table>tbody>tr>td input,.new_manager table>tbody>tr>td input{
+	height:100%;
+	width:100%;
+	border:none;
+}
+.btn_submit,.btn_cancel{
+	border: solid;
+    border-color: #60a9d6;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btnDiv{
+	text-align:center;
+	position:absolute;
+	bottom:10px;
+}

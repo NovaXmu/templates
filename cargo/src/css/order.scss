@@ -1,0 +1,138 @@
+@import "utils";
+
+.order {
+  background: rgb(230, 230, 230);
+  margin: 0 5px 5px;
+  border-radius: 3px;
+
+  &.refused {
+    .header {
+      background: rgb(159, 162, 165);
+    }
+  }
+
+  &.show {
+    .header {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+
+  &.in-debt {
+    .header {
+      //background: $sec-color;
+    }
+  }
+
+  .header {
+    background: rgb(91, 136, 181);
+    padding: 0 5px;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+
+    h2 {
+      float: left;
+      line-height: 35px;
+      font-size: large;
+    }
+
+    time {
+      font-size: x-small;
+      float: right;
+      line-height: 35px;
+      font-weight: normal;
+    }
+  }
+  
+  label {
+    color: $prim-color;
+  }
+
+  .item-footer {
+    button {
+      font-size: 13px;
+    }
+  }
+
+  .name {
+    font-size: 120%;
+  }
+
+  .op {
+    float: left;
+  }
+
+  .extra {
+    clear: both;
+
+    .days {
+
+      span {
+        color: $sec-color;
+      }
+    }
+  }
+
+  .datepicker__input-container {
+    display: inline-block;
+    margin: 7px 7px;
+  }
+
+  form {
+    padding: 5px 0;
+    padding-right: 0 !important; //覆盖stockInNew中form的右内边距
+    
+    .btn-wrap {
+      padding: 0 !important;
+    }
+    
+    label {
+      text-align: left;
+    }
+
+    input,select,option,textarea,[contenteditable=true] {
+      border: none !important;
+    }
+  }
+
+  .footer {
+    padding: 5px;
+  }
+
+  .user {
+    
+    &::before {
+      @include userIcon;
+    }
+  }
+
+  .remark {
+    text-align: left;
+    padding: 10px;
+    color: $prim-color;
+  }
+
+  .return-manager {
+    margin-top: 5px;
+    .to-return {
+      text-align: right;
+      input {
+        width: 3em;
+        text-align: center;
+      }
+
+      span {
+        margin: 5px;
+      }
+    }
+  }
+
+  .stock-in-new {
+    position: relative;
+    left: 0;
+    padding-right: 5px;
+    padding-top: 5px;
+  }
+}

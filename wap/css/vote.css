@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1439568110_3641212.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1439568110_3641212.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1439568110_3641212.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1439568110_3641212.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1439568110_3641212.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont";
+  font-style: normal; }
+
+body {
+  font-size: 250%;
+  background-color: #eeeeee; }
+
+.nav li {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  border: #fff solid 1px;
+  width: 50%; }
+  .nav li a {
+    padding: 20px;
+    background-color: #c9d1ef;
+    color: #ffffff; }
+    .nav li a:hover, .nav li a:active, .nav li a:focus {
+      background-color: cornflowerblue; }
+  .nav li.active a {
+    box-shadow: 0 0 15px #888;
+    background-color: cornflowerblue;
+    z-index: 99; }
+
+.box {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 8px #ccc;
+  -moz-box-shadow: 0 0 8px #ccc;
+  box-shadow: 0 0 8px #ccc;
+  overflow: hidden;
+  margin: 15px 0;
+  padding: 10px;
+  word-wrap: break-word; }
+
+.vote-rules {
+  border-bottom: dashed 2px #cccccc;
+  padding-bottom: 10px; }
+
+.vote-time {
+  padding-top: 10px; }
+
+.left-text {
+  white-space: nowrap;
+  text-align: right;
+  font-weight: bold;
+  color: cornflowerblue; }
+
+div#header {
+  text-align: center;
+  font-weight: bold;
+  padding: 0 0 10px 0; }
+
+div#body .card {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  border: 1px solid rgba(204, 204, 204, 0.35); }
+  div#body .card .avatar {
+    width: 90%;
+    margin: 0 auto; }
+    div#body .card .avatar:hover {
+      cursor: pointer; }
+    div#body .card .avatar .pic-wrapper {
+      border-radius: 50%;
+      overflow: hidden;
+      position: relative; }
+      div#body .card .avatar .pic-wrapper img.pic {
+        width: 100%; }
+      div#body .card .avatar .pic-wrapper p.vote-num {
+        background-color: rgba(0, 0, 0, 0.3);
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin-bottom: 0; }
+        div#body .card .avatar .pic-wrapper p.vote-num .iconfont {
+          font-size: 70%;
+          color: cornflowerblue;
+          padding: 5px; }
+  div#body .card .name {
+    text-align: center; }
+  div#body .card .vote-btn {
+    margin: 0 auto;
+    width: 80%;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 150%}
+
+div#body .card .vote-btn:after {
+  content: "选择" }
+div#body .card .vote-btn.success {
+  background-color: #00FF68; }
+
+div#body .card .vote-btn.success:after {
+  content: "\e601";
+}
+
+div#footer {
+  margin-top: 5px; }
+  div#footer .prev-page {
+    float: left; }
+  div#footer .next-page {
+    float: right; }
+  div#footer .page-num {
+    text-align: center;
+    font-size: 120%; }
+
+#teacher-modal .modal-header {
+  padding: 10px; }
+  #teacher-modal .modal-header .modal-title {
+    text-align: center; }
+    #teacher-modal .modal-header .modal-title .vote-num {
+      float: left; }
+      #teacher-modal .modal-header .modal-title .vote-num .iconfont {
+        color: cornflowerblue;
+        padding: 5px; }
+#teacher-modal .modal-content .show {
+  margin-bottom: 20px; }
+  #teacher-modal .modal-content .show .avatar img {
+    border-radius: 50%;
+    width: 100%; }
+#teacher-modal .modal-content .info {
+  line-height: 2; }
+  #teacher-modal .modal-content .info .left {
+    white-space: nowrap;
+    text-align: center;
+    color: cornflowerblue;
+    font-weight: bold; }
+
+#p-footer .wrapper {
+  font-size: small;
+  color: #999;
+  width: 100%;
+  margin: 30px auto 0 auto;
+  overflow: hidden; }
+  #p-footer .wrapper .credits {
+    border-top: #aaa 1px dotted; }
+  #p-footer .wrapper p {
+    text-align: center; }
+
+  #submit {
+     width: 100%;
+     margin-bottom: 10px;
+     background-color: #4F5B71;
+     padding: 20px;
+     color: white;
+     font-size: 150%;
+   }
+
+.modal-lg{
+  width: 90%;
+}
+
+h4 {
+  font-size: inherit;
+}
+  #submit[disabled=disabled]{
+    background-color: #BFBFBF;
+  }
+
+/*# sourceMappingURL=style.css.map */

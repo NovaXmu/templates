@@ -1,0 +1,254 @@
+@font-face {font-family: "iconfont";
+	src: url('iconfont.eot'); /* IE9*/
+	src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('iconfont.woff') format('woff'), /* chrome、firefox */
+	url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+	font-family: "iconfont";
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-question1:before { content: "\e60c"; }
+.icon-circle2:before { content: "\e60b"; }
+.icon-pageview:before { content: "\e60a"; }
+.icon-blog:before { content: "\e608"; }
+.icon-history:before { content: "\e607"; }
+.icon-act:before { content: "\e606"; }
+.icon-fanhui:before { content: "\e613"; }
+.icon-message:before { content: "\e628"; }
+
+body {
+	font-family: "华文细黑", 'Microsoft YaHei', 'Helvetica', 'Arial', sans-serif;
+	background-color: #ebf3f3;
+	color: #8b93e8;
+}
+
+:focus {
+	outline: -webkit-focus-ring-color auto 0;
+}
+
+a:link, a:visited {
+	color: inherit;
+}
+
+ul {
+	-webkit-padding-start: 0;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+li{
+	list-style: none;
+}
+
+div {
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: #bbb;
+}
+
+button {
+	border:none;
+	background-color: transparent;
+}
+
+.clearfix:after {
+	content: '.';
+	display: block;
+	height: 0;
+	width: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+#loading {
+	width: 2em;
+	height: 2em;
+	margin: auto;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	font-size: xx-large;
+}
+
+#main {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#content{
+	margin-bottom: 55px;
+	margin-top: 44px;
+	position: relative;
+	text-align: center;
+}
+
+#top {
+	width: inherit;
+	text-align: center;
+	background-color: #ffffff;
+	color: #8b93e8;
+	position: fixed;
+	top: 0;
+	height: 44px;
+	z-index: 1000;
+	box-shadow: 0 1px 2px rgba(0,0,0,.25);
+}
+
+#top span.glyphicon {
+	position: relative;
+	top: 3px;
+}
+
+#back {
+	line-height: 44px;
+	margin-left: 10px;
+	display: block;
+	float: left;
+	position: relative;
+	z-index: 500;
+}
+
+#title {
+	width: 100%;
+	position: absolute;
+	font-weight: bold;
+	line-height: 44px;
+	font-size: 140%;
+	z-index: 499;
+}
+
+#alt {
+	float: right;
+	line-height: 44px;
+	z-index: 500;
+	position: relative;
+	padding-right: 10px;
+}
+
+#alt *{
+	line-height: 44px;
+}
+
+.border{
+
+}
+.bill:hover {
+	cursor: pointer;
+	position: relative;
+	top: -34px;
+	box-shadow: 0 -1px 2px rgba(0,0,0,.25);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	bottom: -2px;
+}
+
+.bill:hover .n {
+	display: block;
+}
+
+#footer{
+	background-color: #fff;
+	width: inherit;
+	height: 45px;
+	position: fixed;
+	bottom: 0;
+    z-index:1000;
+	box-shadow: 0 -1px 2px rgba(0,0,0,.25);
+}
+
+#footer ul{
+    width:100%;
+    margin-bottom: 0;
+}
+
+li.bill {
+	width: 20%;
+	font-size: large;
+	float: left;
+	background-color: #fff;
+	text-align: center;
+	position: relative;
+}
+
+.bill .iconfont {
+    font-size: xx-large;
+	margin: 0 auto;
+}
+.bill .n {
+    display: none;
+	position: absolute;
+	left: 0;
+	width: 100%;
+    white-space: nowrap;
+}
+
+/*给手机端的#main添加一个宽度声明，因为footer的position是fixed，需要一个声明宽度的父元素来继承，以控制其宽度*/
+@media (max-width: 768px) {
+	#main.col-sm-8 {
+		width: 100%;
+	}
+}
+/*-----------------------------*/
+
+.tabs {
+	margin-top: 10px;
+}
+
+.tabs>button[class^="tab-"] {
+	color:white;
+	width: 30%;
+	border:2px solid white;
+}
+.tabs button.tab-left {
+	margin-right:-10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background:-moz-linear-gradient(left,#c7c2dd,#c2c5dd);/*Mozilla*/
+	background:-webkit-gradient(linear,0 50%,100% 50%,from(#c7c2dd),to(#c2c5dd));/*Old gradient for webkit*/
+	background:-webkit-linear-gradient(left,#c7c2dd,#c2c5dd);/*new gradient for Webkit*/
+	background:-o-linear-gradient(left,#c7c2dd,#c2c5dd); /*Opera11*/
+}
+
+.tabs button.tab-middle{
+	margin-right:-10px;
+	background:-moz-linear-gradient(left,#959fc7,#82a8c7);/*Mozilla*/
+	background:-webkit-gradient(linear,0 50%,100% 50%,from(#959fc7),to(#82a8c7));/*Old gradient for webkit*/
+	background:-webkit-linear-gradient(left,#959fc7,#82a8c7);/*new gradient for Webkit*/
+	background:-o-linear-gradient(left,#959fc7,#82a8c7); /*Opera11*/
+}
+.tabs button.tab-right{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background:-moz-linear-gradient(left,#7fabc7,#6abac9);/*Mozilla*/
+	background:-webkit-gradient(linear,0 50%,100% 50%,from(#7fabc7),to(#6abac9));/*Old gradient for webkit*/
+	background:-webkit-linear-gradient(left,#7fabc7,#6abac9);/*new gradient for Webkit*/
+	background:-o-linear-gradient(left,#7fabc7,#6abac9); /*Opera11*/
+}
+
+.tabs button.tab-right.active, .tabs button.tab-middle.active {
+	-webkit-box-shadow: 3px 2px 1px hsla(0,0%,50%,5) inset;
+	-moz-box-shadow: 3px 2px 1px hsla(0,0%,50%,5) inset;
+	box-shadow: 3px 2px 1px hsla(0,0%,50%,5) inset;
+}
+
+.tabs button.tab-left.active {
+	-webkit-box-shadow: -8px 3px 1px hsla(0,0%,54%,5) inset;
+	-moz-box-shadow: -8px 3px 1px hsla(0,0%,54%,5) inset;
+	box-shadow: -8px 3px 1px hsla(0,0%,54%,5) inset;
+}

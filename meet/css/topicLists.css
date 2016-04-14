@@ -1,0 +1,139 @@
+/*覆盖blog.css做调整*/
+.tabs button[class^='tab-'] {
+    width: 40%;
+}
+.tabs button.tab-left {
+    background:-moz-linear-gradient(left,#959fc7,#82a8c7);/*Mozilla*/
+    background:-webkit-gradient(linear,0 50%,100% 50%,from(#959fc7),to(#82a8c7));/*Old gradient for webkit*/
+    background:-webkit-linear-gradient(left,#959fc7,#82a8c7);/*new gradient for Webkit*/
+    background:-o-linear-gradient(left,#959fc7,#82a8c7); /*Opera11*/
+}
+/*-----------*/
+
+.topic{
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+    margin: 15px 0;
+	word-spacing: 2px;
+    min-height:200px;
+}
+.enterTopic{
+    padding:0px;
+}
+.forbidEnter{
+    padding-bottom:10px;
+    background-color: white;
+}
+
+/*noinspection CssInvalidFunction*/
+.topicName{
+	color:white;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	background: -moz-linear-gradient(top,#baa4df,#8fbee0); /*Mozilla*/
+    background: -webkit-gradient(linear, center top, center bottom, from(#baa4df), to(#8fbee0)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(top, #baa4df, #8fbee0); /*new gradient for Webkit*/
+    background: -o-linear-gradient(top, #baa4df, #8fbee0); /*Opera11*/
+}
+.topicName div{
+	text-align: left;
+}
+.topicName div.name{
+	font-size:20px;
+}
+.topicName div.time{
+	font-size:15px;
+}
+div.topicContent{
+    background-color: white;
+	font-size:20px;
+	text-align:left;
+	color:black;
+    padding-bottom: 10px;
+}
+div.face{
+	width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    z-index:200;
+    margin-left:20px;
+    margin-top:10px;
+    border-style:solid;
+    border-color:white;
+    position: absolute;
+    background-size: contain;
+}
+
+
+.dianzan{
+    margin-left:15px;
+}
+
+
+#content{
+    padding:15px;
+}
+input{
+    margin-top:10px;
+    width:100%;
+}
+.topicLaunch{
+    margin-top:15px;
+}
+.topicInfo{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #FFFFFF;
+    color:#999999;
+    font-size:20px;
+
+}
+div#name{
+    border-radius: 5px;
+    background-color:#eeeeee;
+    color:#66cc99;
+    text-align: left;
+    margin-top:10px;
+    padding:10px;
+}
+div#introduction{
+    border-radius: 5px;
+    background-color:#eeeeee;
+    text-align: left;
+    color:#999999;
+    margin-top:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+}
+
+div.launch{
+    height:50px;
+    background-color: #c0a7e2;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 30px;
+    color:#FFF;
+    text-align: center;
+    line-height: 50px;
+    FILTER: 'progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#c9a3e2,endColorStr=#9bbbe3)'; /*IE 6 7 8*/
+    background: -ms-linear-gradient(left, #c9a3e2,#9bbbe3);        /* IE 10 */
+    background:-moz-linear-gradient(left,#c9a3e2,#9bbbe3);/*火狐*/ 
+    background:-webkit-gradient(linear, 80% 20%, 0% 0%,from(#c9a3e2), to(#9bbbe3));/*谷歌*/ 
+    background: -webkit-gradient(linear, 80% 20%, 0% 0%, from(#c9a3e2), to(#9bbbe3));      /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(left, #c9a3e2,#9bbbe3);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(left, #c9a3e2, #9bbbe3);  /*Opera 11.10+*/
+}
+
+textarea#topicContent{
+    width:100%;
+    height:100px;
+    margin-top:10px;
+}
+.topicContent p{
+    font-size:15px;
+    word-break: break-all;
+}
+#moreTopic{
+    margin-top:15px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/courseList.css"></head>
+<body>
+<div class=".container">
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2 centered content">
+			<img src="img/courseList.png" id="main">		
+			<div class="col-sm-12 header">
+				<img src="img/header.png" id="top">		
+				<button type="button" class="btn-close">
+					<img src="img/close.png"></button>
+				<span class="title">课程列表</span>
+				<span class="time">2月14日</span>
+			</div>
+			<div class="col-sm-12 list">
+				<div class="col-sm-12 course">
+					<img src="img/course.png" class="course_background">			
+					<div class="col-xs-8 info">
+						<div class="course_name">人工智能导论</div>
+						<div class="course_time">时间：16:00-18:00</div>
+						<div class="course_place">地点：海韵教学楼203</div>
+					</div>
+					<div class="col-xs-4 indate">
+						<img src="img/now.png">
+					</div>
+				</div>
+				<div class="col-sm-12 course">
+					<img src="img/course.png" class="course_background">			
+					<div class="col-xs-8 info">
+						<div class="course_name">人工智能导论</div>
+						<div class="course_time">时间：16:00-18:00</div>
+						<div class="course_place">地点：海韵教学楼203</div>
+					</div>
+					<div class="col-xs-4 outdate">
+						<img src="img/out.png">
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>
+	
+</body>
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	window.onload=function(){
+		var body_height=window.screen.height;
+		var top_height=$(".header").height();
+		var list_height=body_height-top_height;
+		//alert(list_height);
+		$("div.content").css('height',body_height);
+		$("div.list").css('max-height',list_height);
+	}
+</script>
+
+
+</html>

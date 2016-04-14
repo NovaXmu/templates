@@ -1,0 +1,25 @@
+.project_detail{
+	border:solid;
+	padding:0px;
+	padding-top:20px;
+	padding-right:20px;
+	border-color: #60a9d6;
+}
+.project_image{
+	text-align:center;
+	padding:0px;
+}
+.project_content{
+	font-size:18px;
+	padding:0px;
+}
+.project_line{
+	margin-bottom:10px;
+	padding:0px;
+}
+.project_line_left{
+	text-align:right;
+}
+.project_line_right{
+	padding:0px;
+}

@@ -1,0 +1,63 @@
+.messageMenu{
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding:15px;
+	word-spacing: 2px;
+    min-height:200px;
+}
+.enterMessage{
+    padding:0px;
+    margin-bottom: 15px;
+}
+.messageName{
+	color:white;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	background: -moz-linear-gradient(top,#baa4df,#8fbee0); /*Mozilla*/
+    background: -webkit-gradient(linear, center top, center bottom, from(#baa4df), to(#8fbee0)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(top, #baa4df, #8fbee0); /*new gradient for Webkit*/
+    background: -o-linear-gradient(top, #baa4df, #8fbee0); /*Opera11*/
+}
+.messageName div{
+	text-align: left;
+}
+.messageName div.name{
+	font-size:20px;
+}
+div.messageCount{
+    background-color: white;
+	font-size:20px;
+	text-align:left;
+	color:black;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+div.face{
+	width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    z-index:200;
+    margin-left:20px;
+    margin-top:10px;
+    border-style:solid;
+    border-color:white;
+    position: absolute;
+    background-size: contain;
+}
+
+#content{
+    padding:15px;
+}
+
+.messageCount p{
+    font-size:15px;
+    word-break:break-word;
+}
+span.count{
+    border-radius: 50px;
+    background-color: #D41313;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}

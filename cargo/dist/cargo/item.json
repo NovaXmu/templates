@@ -1,0 +1,276 @@
+{
+	"errno": 0,
+	"errmsg": "ok",
+	"data": {
+		"14": [
+			{
+				"id": "19",
+				"name": "办公桌",
+				"picUrl": null,
+				"amount": "7",
+				"room": "仓库1",
+				"location": "12",
+				"category_id": "14",
+				"type": "0",
+				"update_time": "2015-11-28 20:20:57",
+				"update_admin_id": "1"
+			},
+			{
+				"id": "22",
+				"name": "台灯",
+				"picUrl": null,
+				"amount": "47",
+				"room": "仓库1",
+				"location": "15",
+				"category_id": "14",
+				"type": "0",
+				"update_time": "2015-11-28 13:48:33",
+				"update_admin_id": "1"
+			},
+			{
+				"id": "23",
+				"name": "中华豪华铅笔",
+				"picUrl": null,
+				"amount": "994",
+				"room": "仓库1",
+				"location": "21",
+				"category_id": "14",
+				"type": "0",
+				"update_time": "2015-11-28 11:53:15",
+				"update_admin_id": "1"
+			},
+			{
+				"id": "24",
+				"name": "椅子",
+				"picUrl": null,
+				"amount": "16",
+				"room": "仓库1",
+				"location": "10",
+				"category_id": "14",
+				"type": "0",
+				"update_time": "2015-11-28 11:54:12",
+				"update_admin_id": "1"
+			},
+			{
+				"id": "25",
+				"name": "书架",
+				"picUrl": null,
+				"amount": "186",
+				"room": "仓库2",
+				"location": "15",
+				"category_id": "14",
+				"type": "0",
+				"update_time": "2015-11-28 11:39:29",
+				"update_admin_id": "1"
+			},
+			{
+				"id": "26",
+				"name": "饮水机",
+				"picUrl": null,
+				"amount": "43",
+				"room": "仓库3",
+				"location": "1",
+				"category_id": "14",
+				"type": "0",
+				"update_time": "2015-11-28 22:14:26",
+				"update_admin_id": "1"
+			},
+			{
+				"id": "32",
+				"name": "补购的一个新品\/作者：待会儿拒绝",
+				"picUrl": null,
+				"amount": "23",
+				"room": "32",
+				"location": "234",
+				"category_id": "14",
+				"type": "0",
+				"update_time": "2015-11-28 20:32:11",
+				"update_admin_id": "1"
+			},
+			{
+				"id": "37",
+				"name": "undefined",
+				"picUrl": null,
+				"amount": "2",
+				"room": "无23",
+				"location": "23",
+				"category_id": "14",
+				"type": "0",
+				"update_time": "2015-11-28 22:28:32",
+				"update_admin_id": "1"
+			}
+		],
+		"15": [
+			{
+				"id": "20",
+				"name": "《复活》\/作者：列夫·托尔斯泰",
+				"picUrl": null,
+				"amount": "5",
+				"room": "仓库10",
+				"location": "33",
+				"category_id": "15",
+				"type": "1",
+				"update_time": "2015-11-27 19:29:41",
+				"update_admin_id": "1"
+			},
+			{
+				"id": "36",
+				"name": "管理员补购",
+				"picUrl": null,
+				"amount": "23",
+				"room": "的23",
+				"location": "是否打开",
+				"category_id": "15",
+				"type": "1",
+				"update_time": "2015-11-28 22:19:56",
+				"update_admin_id": "1"
+			}
+		],
+		"16": [
+			{
+				"id": "21",
+				"name": "星际穿越",
+				"picUrl": null,
+				"amount": "14",
+				"room": "仓库10",
+				"location": "22",
+				"category_id": "16",
+				"type": "1",
+				"update_time": "2015-11-28 20:22:11",
+				"update_admin_id": "1"
+			},
+			{
+				"id": "28",
+				"name": "少年时代",
+				"picUrl": null,
+				"amount": "10",
+				"room": "仓库10",
+				"location": "13",
+				"category_id": "16",
+				"type": "1",
+				"update_time": "2015-11-27 19:46:11",
+				"update_admin_id": "1"
+			},
+			{
+				"id": "29",
+				"name": "少年PI的奇幻漂流",
+				"picUrl": null,
+				"amount": "20",
+				"room": "仓库10",
+				"location": "51",
+				"category_id": "16",
+				"type": "1",
+				"update_time": "2015-11-27 19:47:42",
+				"update_admin_id": "1"
+			},
+			{
+				"id": "35",
+				"name": "undefined",
+				"picUrl": null,
+				"amount": "6",
+				"room": "232",
+				"location": "23",
+				"category_id": "16",
+				"type": "1",
+				"update_time": "2015-11-28 22:16:21",
+				"update_admin_id": "1"
+			}
+		],
+		"17": [
+			{
+				"id": "27",
+				"name": "篮球",
+				"picUrl": null,
+				"amount": "253",
+				"room": "仓库4",
+				"location": "50",
+				"category_id": "17",
+				"type": "1",
+				"update_time": "2015-11-28 13:53:35",
+				"update_admin_id": "1"
+			}
+		],
+		"18": [
+			{
+				"id": "30",
+				"name": "undefined",
+				"picUrl": null,
+				"amount": "21",
+				"room": "仓库23",
+				"location": "43",
+				"category_id": "18",
+				"type": "1",
+				"update_time": "2015-11-28 09:46:32",
+				"update_admin_id": "1"
+			},
+			{
+				"id": "31",
+				"name": "undefined",
+				"picUrl": null,
+				"amount": "21",
+				"room": "仓库13",
+				"location": "23",
+				"category_id": "18",
+				"type": "1",
+				"update_time": "2015-11-28 09:54:32",
+				"update_admin_id": "1"
+			}
+		],
+		"19": [
+			{
+				"id": "33",
+				"name": "undefined",
+				"picUrl": null,
+				"amount": "3",
+				"room": "32",
+				"location": "2",
+				"category_id": "19",
+				"type": "1",
+				"update_time": "2015-11-28 22:06:53",
+				"update_admin_id": "1"
+			}
+		],
+		"20": [
+			{
+				"id": "34",
+				"name": "undefined",
+				"picUrl": null,
+				"amount": "6",
+				"room": "32",
+				"location": "2",
+				"category_id": "20",
+				"type": "1",
+				"update_time": "2015-11-28 22:14:45",
+				"update_admin_id": "1"
+			}
+		],
+		"21": [
+			{
+				"id": "38",
+				"name": "N",
+				"picUrl": null,
+				"amount": "23",
+				"room": "23",
+				"location": "23",
+				"category_id": "21",
+				"type": "1",
+				"update_time": "2015-11-28 22:44:10",
+				"update_admin_id": "1"
+			}
+		],
+		"22": [
+			{
+				"id": "39",
+				"name": "undefined",
+				"picUrl": null,
+				"amount": "6",
+				"room": "23",
+				"location": "3",
+				"category_id": "22",
+				"type": "0",
+				"update_time": "2015-11-28 22:45:24",
+				"update_admin_id": "1"
+			}
+		]
+	}
+}

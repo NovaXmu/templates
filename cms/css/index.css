@@ -1,0 +1,126 @@
+body {
+    background: url(../img/background.png) no-repeat top left;
+    background-size: cover;
+}
+
+.index-btn {
+    width: 130px;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+.header h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'SSZH', 'Microsoft YaHei', 'Helvetica', 'Arial', serif;
+    font-weight: lighter;
+}
+
+.header .btn {
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+#showcase {
+    height: 364px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    font-family: 'Microsoft YaHei', 'Helvetica', 'Arial', serif;
+    font-weight: lighter;
+    border-bottom: solid 5px #AEAEA9;
+    padding-bottom: 20px;
+}
+
+#showcase ul {
+    width: 3420px;
+    padding: 0;
+    position: relative;
+}
+
+#showcase ul li.item {
+    display: inline-block;
+    float: left;
+}
+
+.pic img {
+    height: 339px;
+}
+
+#showcase .pic {
+    float: left;
+}
+
+.textbox {
+    background-color: #fff;
+    float: left;
+    border: 20px rgb(73, 189, 223) solid;
+    width: 559px;
+    height: 339px;
+}
+
+.textbox .bubble-angle {
+    position: relative;
+    top: 219px;
+    left: -93px;
+}
+
+.textbox .content {
+    position: relative;
+    top: -120px;
+    padding: 20px;
+    text-align: center;
+}
+
+.textbox .content h2 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.textbox .content p {
+    font-size: 20px;
+}
+
+.app img:hover {
+    box-shadow: 0 0 50px;
+    cursor: pointer;
+}
+
+#rollcall-manager .modal-content {
+    overflow: hidden;
+}
+
+.list-btns button {
+    margin-left: 6px;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 15%;
+    font-family: "Microsoft YaHei", Arial, serif;
+    font-size: medium;
+}
+
+.list-btns button:hover {
+    background-color: rgb(202, 199, 199);
+    color: white;
+}
+
+.list-btns {
+    float: right;
+}
+
+.act-info {
+    padding: 10px;
+    border: 1px dashed #ccc;
+}
+
+a.list-group-item {
+    overflow: hidden;
+}

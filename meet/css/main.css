@@ -1,0 +1,33 @@
+body {
+    background-color: #ffffff;
+}
+
+#showcase {
+    background: url("../img/showcase-bg.png") no-repeat center;
+    background-size: cover;
+    padding:10px;
+    text-align:left;
+    color:hsl(199, 97%, 36%);
+    font-size:20px;
+}
+
+#showcase button {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: white;
+}
+
+button{
+    height:initial;
+}
+
+#menu-wrapper {
+    /*background: #ffffff;*/
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#content {
+    margin-bottom: 0;
+}

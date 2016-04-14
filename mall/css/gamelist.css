@@ -1,0 +1,115 @@
+.popover-content {
+  color: #000;
+}
+
+h3.gamename{
+	margin: 0;
+}
+
+.more .rules img{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.extra {
+	padding-top: 5px;
+}
+
+.extra .tabs {
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.extra .tabs li {
+	display: inline-block;
+	width: 50%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.extra .tabs li.active {
+	background: #ccc;
+	color: #00A5ED;
+}
+
+.tabs li:hover {
+	cursor: pointer;
+}
+
+.extra .list {
+	background-color: #f0f0f6;
+	margin-left: 0;
+	padding-left: 0;
+
+}
+
+.extra .list li {
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+	margin-bottom: 5px;
+	background-color: white;
+	height: 100px;
+}
+
+.extra .list li .index {
+	font-size: 10px;
+	display: inline-block;
+	float: left;
+	margin-top: 35px;
+	margin-left: 3px;
+}
+
+.extra .index .wrapper {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background-color: #00A5ED;
+	color: white;
+	border-radius: 50%;
+}
+
+.extra .list li .avatar {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 0 1px 1px #e5e5e5;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.extra .list li .avatar img {
+	max-width: 100%;
+	vertical-align: middle;
+	background: white;
+}
+
+.extra .list li .info {
+	display: inline-block;
+	font-size: 12px;
+	max-width: 120px;
+}
+
+.extra .list li .info h3 {
+	font-size: 14px;
+	color: black;
+}
+
+.extra .list li .btn {
+	float: right;
+	margin-top: 22px;
+}
+
+.extra .list .btn button {
+	font-size: 16px;
+	background-color: hsl(187, 100%, 50%);
+}
+
+.extra .list .btn button[disabled] {
+	background-color: #eee
+}

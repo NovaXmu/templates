@@ -1,0 +1,40 @@
+.manage{
+	border:solid;
+	padding:0px;
+	margin-top: 10px;
+	border-color: #60a9d6;
+}
+.add_manager{
+	height:50px;
+	text-align:left;
+	color:#60a9d6;
+	font-size:20px;
+	line-height: 50px;
+}
+.add_manager img{
+	width:15px;
+	height:15px;
+	margin-top: -5px;
+}
+.table{
+	font-size:18px;
+}
+.table>thead{
+	background-color:#60a9d6;
+	color:#fff;
+}
+.table>thead>tr,.table>tbody>tr{
+	height:50px;
+}
+.table>thead>tr>th,.table>tbody>tr>td{
+	vertical-align: middle;
+	text-align: center;
+}
+
+.fixed-table-pagination .pagination-detail{
+    display: none;
+}
+.fixed-table-pagination .pagination a{
+	font-size:15px;
+}
+

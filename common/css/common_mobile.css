@@ -1,0 +1,49 @@
+/*适应移动端调整common样式*/
+@media(max-width: 480px) {
+
+	#header {
+		height: 35px;
+		padding-top: 10px;
+	}
+
+	#header h1 {
+		font-size: 26px;
+	}
+
+	#header span {
+		font-size: 16px;
+		margin-top: 11px;
+		margin-left: 10px;
+	}
+
+	#content{
+		padding:15px 10px;
+	}
+
+	#content h2.title{
+		font-size: 20px;
+		width:80%;
+	}
+
+	#footer{
+
+	}
+
+	#footer .credits{
+		padding:10px 0;
+	}
+
+	#footer .copyrights{
+		padding:10px 0;
+	}
+
+	#footer p {
+		font-size: 80%;
+	}
+
+	.wrapper {
+		width: 96%;
+		margin:0 auto;
+	}
+
+}

@@ -1,0 +1,123 @@
+.header{
+	position:absolute;
+	height:15%;
+	top:0px;
+	font-size:20px;
+	color:#000;
+	font-family: "黑体";
+}
+#top{
+	width:100%;
+	height:100%;
+}
+.title{
+	width: 100%;
+	position: absolute;
+	top:0;
+	padding-top: 3%;
+	font-family: "黑体";
+}
+.num{
+	width: 100%;
+    position: absolute;
+    top: 50%;
+    padding-left: 10%;
+}
+.main{
+	position:absolute;
+	top:16%;
+	width:100%;
+}
+.num #fore1{
+	width:80%;
+}
+.num #fore2{
+	width: 60%;
+    top: 20%;
+    position: absolute;
+    left: 9%;
+}
+.num span{
+	position: absolute;
+    left: 20%;
+    color: #fff;
+    font-size: 15px;
+    padding-left: 5%;
+    padding-top: 1.3%;
+}
+.btn-back{
+	margin-right:15%;
+}
+.btn-back img{
+	width:60%;
+}
+.pag button{
+	width: 50%;
+    background-color: #bfe166;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #5ab715;
+    font-size:18px;
+    color:#000;
+}
+.pag .btn-selected{
+	background-color: #6bca26;
+    border-color: #5ab715;
+    color:#fff;
+}
+.pag .btn-unselected{
+    background-color: #6bca26;
+    border-color: #5ab715;
+    color:black;
+}
+
+.pag .btn-no-sign{
+	margin-left: -1.5%;
+}
+.pag .btn-sign{
+	margin-right:-1.5%;
+}
+.attr img{
+	width:98%;
+}
+.attr .divAttr{
+	position: absolute;
+    top: 30%;
+    color: #000;
+    font-size: 18px;
+    font-family: "黑体";
+}
+.item{
+	padding: 0px;
+}
+.item img{
+	width:98%;
+}
+.item .item-value{
+	position:absolute;
+	top:20%;
+	font-size:16px;
+	color:#000;
+	font-family: "黑体";
+}
+.btn-more{
+	width: 98%;
+}
+.btn-more img#more{
+	width:93%;
+}
+.btn-more img#bottom{
+    width: 5%;
+    position: absolute;
+    left: 33%;
+    bottom: 4%;
+}
+span.moreLabel{
+	position: absolute;
+    left: 40%;
+    font-size: 20px;
+    bottom: 3%;
+    color: #000;
+    font-weight: bold;
+}
+S

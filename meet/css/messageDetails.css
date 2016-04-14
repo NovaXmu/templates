@@ -1,0 +1,62 @@
+.recordMenu{
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding:15px;
+	word-spacing: 2px;
+}
+.record{
+    padding:0px;
+}
+.recordReply{
+    padding-bottom:10px;
+    background-color: white;
+}
+.recordName{
+	color:white;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	background: -moz-linear-gradient(top,#baa4df,#8fbee0); /*Mozilla*/
+    background: -webkit-gradient(linear, center top, center bottom, from(#baa4df), to(#8fbee0)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(top, #baa4df, #8fbee0); /*new gradient for Webkit*/
+    background: -o-linear-gradient(top, #baa4df, #8fbee0); /*Opera11*/
+}
+.recordName div{
+	text-align: left;
+}
+.recordName div.name{
+	font-size:20px;
+}
+.recordName div.time{
+	font-size:15px;
+}
+div.recordContent{
+    background-color: white;
+	font-size:20px;
+	text-align:left;
+	color:black;
+    padding-bottom: 10px;
+}
+div.face{
+	width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    z-index:200;
+    margin-left:20px;
+    margin-top:10px;
+    border-style:solid;
+    border-color:white;
+    position: absolute;
+    background-size: contain;
+}
+#content{
+    padding:15px;
+}
+.recordContent p{
+    font-size:15px;
+    word-break:break-word;
+}
+.viewTopic{
+    float:right;
+    color:#8b93e8;
+    font-size:15px;
+}

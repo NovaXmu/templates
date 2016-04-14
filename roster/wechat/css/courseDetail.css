@@ -1,0 +1,61 @@
+.header{
+	position:absolute;
+	top:0px;
+	font-size:20px;
+	color:#000;
+	font-family: "黑体";
+}
+#top{
+	width:100%;
+}
+.btn-back{
+	position:absolute;
+	top:25%;
+	left:5%;
+}
+.btn-back img{
+	width:50%;
+}
+span.title{
+	position: absolute;
+	left:35%;
+	top:25%;
+	font-weight: bold;
+}
+.btn-detail{
+	position:absolute;
+	top:20%;
+	right:5%;
+}
+.btn-detail img{
+	width:50%;
+}
+.main{
+	position: absolute;
+	top:10%;
+	overflow: scroll;
+	font-size:20px;
+	font-weight: bold;
+}
+.main .text{
+	padding-top:10%;
+	padding-bottom: 10%; 
+}
+.main .code img#border{
+	width:100%;
+	opacity: 1;
+}
+.main .code img#image{
+	width:62%;
+	opacity: 2;
+	position: absolute;
+	top:16%;
+	left:19%;
+}
+.main .code span#code{
+	width:62%;
+	opacity: 2;
+	position: absolute;
+	top:16%;
+	left:19%;
+}

@@ -1,0 +1,158 @@
+@import "utils";
+
+#cart {
+	background-color: #eee;
+	border-top: 3px solid #ccc;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 10;
+//	transition: all 1s;
+	.icon {
+		width: 60px;
+		height: 60px;
+		background: url("../img/cart.png") center/contain no-repeat;
+		position: absolute;
+		left: 0.5rem;
+		top: -30px;
+		
+		.badge {
+			font-size: 12px;
+			width: 2em;
+			height: 2em;
+			line-height: 2em;
+			position: absolute;
+			top: -.5rem;
+			right: 0;
+			display: block;
+			text-align: center;
+			border-radius: 50%;
+			background: $sec-color;
+			color: white;
+		}
+	}
+	
+	.content {
+		float: right;
+		width: 100%;
+		
+		a {
+			display: none;
+			position: absolute;
+    	top: 5px;
+    	right: 10px;
+		}
+	}
+	
+	#order-comment {
+		display: inline-block;
+		width: 85%;
+    height: 30px;
+    float: right;
+//		transition: width 0.5s;
+		input {
+			width: 70%;
+    	height: 34px;
+    	border: none;
+			text-align: center;
+			padding: none;
+		}
+	}
+	
+	button {
+		position: relative;
+		padding: 5px 8px !important;
+		height: 34px;
+		box-sizing: border-box;
+    width: 30%;
+		border-radius: 0;
+	}
+	
+	#order-list {
+		clear: both;
+    overflow: auto;
+		max-height: 0;
+//		transition: max-height 0.5s;
+		
+		h3 {
+			text-align: center;
+    	padding: 5px;
+		}
+	}
+	
+	&.show {
+		a {
+			display: block;
+		}
+		padding: 25px 0px 0;
+		#order-list {
+			max-height: 23rem;
+		}
+		
+		#order-comment {
+			width: 100%;
+		}
+	}
+	.cart-item {
+		padding: .5em 0;
+    border-bottom: 1px dashed #ccc;
+		
+		&:last-child {
+			border-bottom: none;
+		}
+		.name {
+			color: #8499D2;
+			font-size: 16px;
+			float: left;
+			width: 50%;
+			box-sizing: border-box;
+			text-align: left;
+			padding-left: 10px;
+		}
+		
+		&.take {
+			.name::before {
+				@include takeIcon;
+			}
+		}
+		
+		&.borrow {
+			.name::before {
+				@include borrowIcon;
+			}
+		}
+
+		&.is-new {
+			.name::after {
+				@include newIcon;
+				margin-left: 5px;
+				color: #FF1818;
+			}
+		}
+		
+		.op {
+			float: left;
+			width: 50%;
+			box-sizing: border-box;
+			line-height: 1.5;
+			text-align: center;
+			span {
+				color: $sec-color;
+			}
+			
+			@include opBtn;
+			
+			section {
+				padding: 1.5px 0;
+				white-space: nowrap;
+			}
+		}
+		
+		input {
+			width: 3em;
+			text-align: center;
+			background-color: white;
+			border: none;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+.commentInput{ 
+    margin-top:10px;
+    overflow: hidden; 
+    width: 100%; 
+    font-size: 14px;
+    height:25px;
+}
+textarea#COMMENT{
+    outline: 0 none;
+    background-color: inherit;
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.btn-comment{
+	float:right;
+	width:18%;
+	height:25px;
+	font-size:14px;
+	border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+    background-color: rgba(82, 168, 236, 0.8);
+    color:white;
+    margin-top:10px;
+}

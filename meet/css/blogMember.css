@@ -1,0 +1,61 @@
+/*.remodal {
+	background: #b5b5b5;
+	color: #fff;
+	width: 80%;
+	padding: 10px 0;
+}
+
+.remodal-overlay {
+	background: none;
+}
+
+.remodal #avatar {
+	margin-bottom: 30px;
+}
+
+.remodal #avatar .wrap {
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.remodal #avatar .wrap img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.remodal button {
+	line-height: 1;
+	width: 48%;
+	padding: 10px;
+	border: 0px;
+	margin: 10px 0;
+}
+.remodal .send{
+	padding:0px;
+	margin:0px;
+}
+
+.remodal button.to-main {
+	float: left;
+	background-color: #63dc96;
+}
+
+.remodal button.to-pk {
+	float: right;
+	background-color: #63a6d8;
+}
+.wrap{
+	border-style: solid;
+	border-color:white;
+	border-width: 5px;
+	width:100px;
+	height:100px;
+	border-radius:100px;
+	background-size:contain;
+}*/
+.member{
+	text-align:center;
+	margin-top:10px;
+}

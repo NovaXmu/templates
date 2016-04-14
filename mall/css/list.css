@@ -1,0 +1,44 @@
+.item {
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.itemwhite {
+	background-color: #fff;
+	
+}
+.itemblue {
+	background-color:#3399FF;
+}
+
+.item .pic {
+	padding: 0;
+}
+
+.exchangeBtn {
+	margin-top: 5px;
+	width: 100%;
+	float: right;
+	border: solid rgb(41, 184, 226) 1px;
+	border-radius: 5px;	
+}
+
+.auctionBtn {
+	margin-top: 5px;
+	width: 100%;
+	float: right;
+	border: solid rgb(41, 226, 114) 1px;
+	border-radius: 5px;	
+}
+
+.pic img {
+	width:100%;
+}
+
+.desc {
+font-weight:bold;
+color:#999999;
+}

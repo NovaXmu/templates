@@ -1,0 +1,41 @@
+#nav {
+	text-align: center;
+	white-space: nowrap;
+	font-size: 130%;
+	margin-top: 12px;
+}
+
+#nav>div{
+	color: #aaa;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#nav>div.active{
+	color: #fff;
+}
+
+#main {
+	overflow: hidden;
+}
+
+#main ul {
+	position: relative;
+	padding-left: 0;
+}
+
+#main ul li.part {
+ 	float: left;
+	width: 100%;
+	margin-right: 0;
+}
+
+.message {
+	color: rgb(250, 135, 155);
+	font-weight:bold;
+}
+
+table {
+	color: #000;
+	margin-bottom: 0 !important;
+}

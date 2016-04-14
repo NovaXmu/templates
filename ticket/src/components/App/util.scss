@@ -1,0 +1,20 @@
+$prim-color: #fc3;
+$sec-color: #73b1ff;
+$header-h: 40px;
+$nav-height: 50px;
+$userp-height: 30px;
+$prim-ff: 'STXihei','华文细黑','Microsoft YaHei', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+@mixin circle {
+  &:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #dcdcdc;
+    left: -10px;
+    top: -10px;
+    border-radius: 50%;
+  }
+}

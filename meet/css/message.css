@@ -1,0 +1,56 @@
+.message{
+	background-color: #eee;
+	color:#999;
+	padding: 20px;
+	margin-top:10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.message textarea{
+	width:100%;
+	background-color: #bfbfbf;
+	color:white;
+	font-size:20px;
+	min-height:200px;
+	border-radius: 10px;
+	border:none;
+}
+
+.messagelist{
+	background-color: #eee;
+	margin-top:20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-right:10px;
+	height:300px;
+}
+.messagelist ul{
+	padding: 0 15px 15px 0;
+	margin-top:10px;
+	height: 270px;
+	overflow: scroll;
+}
+.messagelist ul li{
+	text-align:left;
+	font-size:20px;
+	color:#b5b5b5;
+}
+.enter{
+    padding: 10px 20px;
+	font-size:20px;
+	color: #fff;
+    text-align: center;
+	border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: -moz-linear-gradient(left, #689ebd, #a27bba); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#689ebd), to(#a27bba)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #689ebd, #a27bba); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #689ebd, #a27bba); /*Opera11*/
+}
+.enter:hover {
+    cursor: pointer;
+}
+.face{	
+	border-radius: 30px;
+	border-color:white;
+}

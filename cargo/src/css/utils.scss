@@ -1,0 +1,55 @@
+$prim-color: hsl(200, 60%, 50%);
+$sub-color: rgb(153, 204, 255);
+$sec-color: hsl(36, 100%, 50%);
+
+@mixin opBtn {
+	i {
+		margin: 0 .5em;
+		display: inline-block;
+		width: 1.5em;
+		height: 1.5em;
+		border: 2px solid $prim-color;
+		color: $prim-color;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 1.5em;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		font-family: "Times New Roman";
+		
+		&.add {
+			color: white;
+			background-color: $prim-color;
+		}
+	}
+}
+
+@mixin icon {
+	font-family: "iconfont";
+	font-size: 90%;
+	margin-right: 5px;
+}
+
+@mixin userIcon {
+	content: "\e601";
+  @include icon;
+}
+
+@mixin takeIcon {
+	content: "\e604";
+	color: black;
+	@include icon;
+}
+
+@mixin borrowIcon {
+	content: "\e602";
+	@include icon;
+	color: black;
+}
+
+@mixin newIcon {
+	content: "\e603";
+	@include icon;
+	color: black;
+}

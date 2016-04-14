@@ -1,0 +1,145 @@
+@import "utils";
+
+.goods-list {
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align: center;
+	padding: 5px;
+	position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 90px;
+  top: 0;
+  padding-right: 95px;
+  padding-top: 73px;
+  padding-bottom: 33px;
+  box-sizing: border-box;
+
+  @at-root #sec-manage & {
+  	padding-top: 105px;
+  	padding-bottom: 0;
+  }
+
+	li {
+		border-bottom: 1px solid #ccc;
+		line-height: 1.5;
+		text-align: left;
+		padding: 8px 0;
+		
+		&:last-child {
+			border-bottom: none;
+		}
+		
+		.info {
+			float: left;
+			width: 60%;
+    	box-sizing: border-box;
+			padding-left: 5px;
+
+			input, select, option, [contenteditable=true], textarea {
+				padding-left: 0;
+			}
+			
+			h3, .item-name {
+				margin-top: 5px;
+				font-size: 18px;
+			}
+			
+			p.remain {
+				color: hsl(0, 0%, 60%);
+				
+				em {
+					width: 4em;
+					text-align: center;
+					display: inline-block;
+				}
+			}
+			
+			.ops {
+				color: $prim-color;
+				
+				section {
+					padding-top: 0.5em;
+					white-space: nowrap;
+					clear: both;
+					
+					.amount {
+						width: 2em;
+						display: inline-block;
+						text-align: center;
+					}
+					
+					@include opBtn;
+					
+				}
+			}
+			
+			.to-buy {
+				padding-right: .5rem;
+				padding-top: .5rem;
+				white-space: nowrap;
+				span {
+					color: #ccc;
+					float: left;
+				}
+				
+				a {
+					background-color: #BDBDBD;
+					color: white;
+					padding: 2px 5px;
+					display: inline-block;
+					text-decoration: none;
+					float: left;
+				}
+			}
+		}
+		
+		.pic {
+			float: left;
+    	width: 40%;
+			background: url("../img/image_placeholder.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			
+			&:after {
+				content: "";
+				display: block;
+				padding-bottom: 100%;
+			}
+		}
+		
+	}
+	
+	.to-stock {
+		
+		form {
+			color: $prim-color;
+			
+			input, textarea, *[contenteditable=true], select {
+				color: black;
+				overflow: auto;
+				text-align: center;
+
+				&:focus {
+					box-shadow: none;
+				}
+			}
+		}
+
+
+		
+		.btn-wrap {
+			text-align: right;
+			padding-top: 5px;
+
+			button {
+				padding: .5em;
+			}
+		}
+	}
+}
+
+.pic-show {
+	width: 100%;
+}

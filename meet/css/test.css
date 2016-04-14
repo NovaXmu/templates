@@ -1,0 +1,59 @@
+#list {
+    overflow: hidden;
+}
+
+#list ul {
+    -webkit-padding-start: 0;
+    position: relative;
+}
+
+#list li.test {
+
+    margin: 20px 10px;
+    width: 55%;
+    display: inline-block;
+    float: left;
+}
+
+.type {
+    font-size: 200%;
+}
+
+.test .top {
+    background: #ffffff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px;
+    text-align: left;
+}
+
+.test .top h4 {
+    color: #63de94;
+}
+
+.test .top p {
+    color: #9d9c9c;
+}
+
+.test .bottom {
+    font-size: 120%;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: -moz-linear-gradient(left, #689ebd, #a27bba); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#689ebd), to(#a27bba)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #689ebd, #a27bba); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #689ebd, #a27bba); /*Opera11*/
+}
+
+.test .bottom:hover {
+    cursor: pointer;
+}
+
+
+
+#d, .update-t {
+    color: #afb2b2;
+}

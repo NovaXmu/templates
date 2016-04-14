@@ -1,0 +1,23 @@
+@import "utils";
+
+.op {
+  width: 50%;
+  box-sizing: border-box;
+  line-height: 1.5;
+  text-align: center;
+  span {
+    color: $sec-color;
+  }
+  
+  @include opBtn;
+  
+  section {
+    padding: 1.5px 0;
+    white-space: nowrap;
+  }
+
+  input {
+    text-align: center;
+    width: 3em;
+  }
+}

@@ -1,0 +1,89 @@
+@font-face {
+
+	font-family: 'HandVetica';
+
+	src: url('HandVetica.ttf');
+
+	src: local('HandVetica Regular'),
+
+	local('HandVetica'),
+
+	url('HandVetica.ttf') format('truetype');
+
+}
+/*
+#page {
+	margin-top: 150px !important;
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}*/
+
+body {
+	background: url(../img/Chalkboard.png) no-repeat;
+	background-color: #2b2a28;
+	background-position: 0px -20px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	height: 100%;
+}
+
+#instruction {
+	width: 420px;
+	float: left;
+	font-family: 'HandVetica', 'Microsoft YaHei', Georgia, Helvetica, Arial, Serif;
+	color: #fff;
+	font-size: 23px;
+}
+
+#act-name {
+	padding-left: 20px;
+	color: rgb(224, 207, 87);
+	text-align: center;
+	font-size: 38px;
+	margin-bottom: 20px;
+}
+
+#process {
+	padding-left: 75px;
+	height: 455px;
+	position: absolute;
+}
+
+#text {
+	padding-left: 20px;
+	position: relative;
+	opacity: 0.0;
+}
+
+#QRcode {
+	width: 470px;
+	height: 470px;
+	padding: 22px;
+	margin: 20px auto;
+	background-color: #fff;
+	float: right;
+}
+
+#footer {
+	width: 100%;
+	/*clear:both;*/
+	font-family: 'HandVetica';
+	color: #ccc;
+}
+/*
+#footer .credits{
+	border-top:#aaa 1px solid;
+}*/
+
+#footer p {
+	text-align: center;
+}
+
+.wrapper {
+	width: 100%;
+	/*margin:122px auto 0 auto;*/
+	/*overflow: hidden;*/
+}

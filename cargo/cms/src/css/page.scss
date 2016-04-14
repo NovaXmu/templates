@@ -1,0 +1,90 @@
+#main-title {
+	background-color: cornflowerblue;
+  color: white;
+  margin-bottom: 20px;
+	h1 {
+		font-size: 50px;
+	}
+}
+.panel-heading {
+	h2 {
+		margin-top: 10px;
+	}
+}
+.sec-ops {
+	display: inline-block;
+	
+	button {
+		margin-left: 10px;
+		transition: all 1s;
+	}
+}
+
+.user-table {
+	margin-top: 1em;
+	text-align: center;
+	th {
+		text-align: center;
+	}
+	tr.admin {
+		.username:before {
+			content: "\e212\20";
+			font-family: 'Glyphicons Halflings';
+		}
+	}
+}
+
+.stuff-list {
+	padding: 10px;
+	
+	.thumbnail {
+		input[type=file] {
+			display: none;
+		}
+		h4 {
+			height: 2em;
+		}
+		
+		.caption {
+			position: relative;	
+		}
+		
+		button {
+			position: absolute;
+    	bottom: 6em;
+    	right: .5em;
+		}
+	}
+}
+
+.stuff-ops {
+	text-align: right;
+}
+.thumbnail img {
+	width: 100%;
+}
+.thumbnail.upload img:hover {
+	cursor: pointer;
+}
+
+.login-panel {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+#auth {
+	.checkbox-inline {
+		margin-top: 5px;
+    margin-left: 0;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: 1px solid #555;
+    border-radius: 8px;
+	}
+	
+	.checkbox-inline.checked {
+		background-color: #368BD7;
+    color: white;
+		border: 1px solid #368BD7;
+	}
+}

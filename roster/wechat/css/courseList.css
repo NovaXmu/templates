@@ -1,0 +1,62 @@
+.header{
+	position:absolute;
+	top:0px;
+	font-size:20px;
+	color:#000;
+	font-family: "黑体";
+}
+#top{
+	width:100%;
+}
+.btn-close{
+	position:absolute;
+	top:25%;
+	left:5%;
+}
+.btn-close img{
+	width:50%;
+}
+span.title{
+	position: absolute;
+	left:10%;
+	top:25%;
+	font-weight: bold;
+}
+input.time{
+	position: absolute;
+	right:10%;
+	top:25%;
+}
+.list{
+	position:absolute;
+	top:10%;
+	overflow: scroll;
+	color:#000;
+}
+.course .course_background{
+	width:100%;
+	z-index:-1;
+}
+.course .info{
+	position:absolute;
+	top:0px;
+	font-size:17px;
+	padding-top:3%;
+	padding-left: 10%;
+}
+.course .indate,.course .outdate{
+	position:absolute;
+	right:0px;
+}
+.course .indate{
+	top:15%;
+}
+.course .outdate{
+	top:25%;
+}
+.course .info .course_name{
+	font-weight: bold;
+}
+.course .indate img,.course .outdate img{
+	width:80%;
+}

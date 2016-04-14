@@ -1,0 +1,30 @@
+#picture-area {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 15px;
+}
+
+.bowl {
+    width: 100%;
+    height: auto;
+}
+
+.dice {
+    width: 30%;
+    height: auto;
+    margin-left: 2%;
+}
+
+#notice {
+    font-size: 20px;
+}
+
+#diceresult {
+    font-size: 24px;
+    color: #d61616; 
+}
+
+#bobingLevel {
+    font-size: 20px;
+    color: #000;
+}

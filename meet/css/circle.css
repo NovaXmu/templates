@@ -1,0 +1,105 @@
+.stamp {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.stamp:hover {
+	cursor: pointer;
+}
+
+.stamp .name {
+	color: #aeadad;
+	font-size: 120%;
+	text-align: center;
+	position: relative;
+}
+.stamp img {
+	display: none;
+}
+
+
+#m1 {
+	top: 30px;
+}
+
+#m3 {
+  	top: -50px;
+}
+
+#m4 {
+  	top: -50px;
+}
+
+#m5 {
+  	top: -90px;
+}
+
+#board {
+	overflow: hidden;
+}
+
+#slogan {
+	text-align: center;
+	font-size: 200%;
+	font-weight: bold;
+	font-family: "华文细黑";
+	color: #8b93e8;
+	clear: both;
+	margin-top: 10px;
+}
+
+#inst {
+	text-align: center;
+	font-size: 100%;
+	font-weight: bold;
+	font-family: "华文细黑";
+	color: #aeadad;
+	clear: both;
+	margin-top: 10px;
+}
+
+/*.remodal {
+	background: #b5b5b5;
+	color: #fff;
+	width: 80%;
+	padding: 10px 0;
+}
+
+.remodal-overlay {
+	background: none;
+}
+
+.remodal #avatar {
+	margin-bottom: 30px;
+}
+
+.remodal #avatar .wrap {
+	width: 30%;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.remodal #avatar .wrap img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.remodal button {
+	line-height: 1;
+	width: 48%;
+	padding: 10px;
+	border: 0px;
+	margin: 10px 0;
+}
+
+.remodal button.to-main {
+	float: left;
+	background-color: #63dc96;
+}
+
+.remodal button.to-pk {
+	float: right;
+	background-color: #63a6d8;
+}*/

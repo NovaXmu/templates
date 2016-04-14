@@ -1,0 +1,64 @@
+.bg{
+	margin-top: 20px;
+	background-color:#ffffff;
+	color: rgba(153,153,153,1);
+	width: 100%;
+}
+.cent{
+	margin-top: 5%;
+}
+input{
+	border-style: hidden;
+	font-size: inherit;
+	color: white;
+	width: 40%;
+	border-radius: 5px;
+	border: 0;
+	padding: 2%;
+	margin-top: 7%;
+}
+a{
+	color: rgba(153,153,153,1);
+	font-size: larger;
+}
+#bot div{
+	width:150px;
+	height: 200px;
+
+}
+#bot1 p{
+	background-color: rgba(46,170,113,.5);
+	width: 80%;
+	height: 35px;
+	text-align: center;
+	color: white;
+	line-height: 35px;
+	position: relative;
+	top: -35px;
+}
+#bot1 p img{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+#bot2 p{
+	background-color:rgba(67,173,172,.5);
+	width: 80%;
+	height: 35px;
+	color: white;
+
+	text-align: center;
+	line-height: 35px;
+	position: relative;
+    top: -35px;
+
+}
+#bot2 p img{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.ab {
+	height: 30px;
+}

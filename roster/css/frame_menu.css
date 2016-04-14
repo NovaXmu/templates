@@ -1,0 +1,46 @@
+.frame_menu{
+	padding-right: 0px;
+}
+.avatar{
+	width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.avatar img{
+	border: solid;
+    border-radius: 100px;
+    border-width: 10px;
+    border-color: #dddddd;
+    margin-bottom: 10px;
+}
+.menu{
+	width:100%;
+	border-top-style:solid;
+	border-width: 1px;
+	border-color: #ebebeb;
+	margin-top: 20px;
+}
+div.menu_index,div.menu_projectList,div.menu_manage{
+	border-bottom-style:solid;
+	border-width: 1px;
+	border-color: #ebebeb;
+}
+.menu .left{
+	float:left;
+	width:10%;
+	height:70px;
+}
+.menu .right{
+	width:90%;
+	height:70px;
+}
+.menu img{
+	width:70px;
+	height:70px;
+}
+.selected{
+	background-color: #fff;
+}
+.left_selected{
+	background-color:#60a9d6;
+}

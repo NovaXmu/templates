@@ -1,0 +1,44 @@
+@import "utils";
+
+.menu {
+	overflow-y: auto;
+  z-index: 9;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding-top: 42px;
+  padding-bottom: 63px;
+  box-sizing: border-box;
+
+  @at-root #sec-manage & {
+  	padding-top: 72px;
+  	padding-bottom: 0;
+  }
+	
+	li {
+		background: hsl(0, 0%, 93%);
+		border-bottom: 3px solid hsl(0, 0%, 80%);
+		color: hsl(0, 0%, 40%);
+		padding: 0.5em 5px;
+		text-align: center;
+		font-size: 16px;
+		width: 5em;
+		
+		&.highlight {
+			color: hsl(36, 100%, 50%);
+		}
+		
+		&.active {
+			color: $prim-color;
+			background: white;
+		}
+	}
+	
+	&.freeze {
+		li.active {
+			color: hsl(0, 0%, 40%);
+			background: hsl(0, 0%, 93%);;
+		}
+	}
+}

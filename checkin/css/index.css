@@ -1,0 +1,40 @@
+.question, .checked-in p{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 150%
+}
+@media(max-width: 480px) {
+	.question, .checked-in p{
+		font-size: 100%;
+	}
+}
+.question p {
+	margin: 20px 0;
+}
+.question .option {
+	margin:20px 0 20px 10px;
+}
+
+.remark {
+	margin-top: 20px;
+	line-height: 1.5;
+}
+
+.checked-in p {
+	text-align: center;
+	margin:20px auto;
+}
+ 
+.checked-in .icon{
+	width:200px;
+	margin:10px auto;
+}
+
+.checked-in .icon img{
+	width:200px;
+}
+span.right{
+	color:yellow;
+	font-size: 45px;
+}

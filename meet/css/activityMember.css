@@ -1,0 +1,62 @@
+#listBlock {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#nameList{
+	background-color: white;
+	color:#000;
+	-webkit-border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
+	counter-reset: index;
+}
+
+#nameList h2 {
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+}
+
+#nameList div{
+	padding: 0;
+	width:100%;
+	font-size:20px;
+}
+#nameList div p {
+	text-align: left;
+	height: 40px;
+	line-height: 1.5;
+	padding: 5px;
+}
+#nameList div p:last-child {
+	margin-bottom: 0;
+}
+
+#nameList div p::before {
+	counter-increment: index;
+	content: counter(index);
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	font-size: 0.5em;
+	line-height: 1.5em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	background-color: #00bdef;
+	color: white;
+	text-align: center;
+	margin-right: 5px;
+}
+
+#nameList div p span {
+	 color: #aaa;
+ }
+
+#nameList div p button.btn-letter{
+	float:right;
+	border-style:none;
+}
+.btn-letter {
+	text-decoration: underline;
+}

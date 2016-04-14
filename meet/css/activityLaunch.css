@@ -1,0 +1,56 @@
+input{
+	margin-top:10px;
+	width:100%;
+}
+.activity{
+	width: 87%;
+	margin: 10px auto;
+	border-radius: 15px;
+	background-color: #FFFFFF;
+	color:#999999;
+	font-size:20px;
+}
+
+.activity>div {
+	margin: 10px;
+	padding:10px;
+	border-radius: 5px;
+	background-color:#eeeeee;
+	text-align: left;
+}
+div#name{
+	color:#66cc99;
+}
+div#introduction{
+	color:#999999;
+}
+div#time,div#maxnum{
+	color:#999;
+}
+div#time input,div#maxnum input{
+	line-height: inherit;
+}
+button#launch{
+	display: block;
+	height:50px;
+	width: 100%;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	font-size: 30px;
+	color:#FFF;
+	text-align: center;
+	line-height: 50px;
+	background-color: #c0a7e2;
+	background: -ms-linear-gradient(left, #c9a3e2,#9bbbe3);        /* IE 10 */
+    background:-moz-linear-gradient(left,#c9a3e2,#9bbbe3);/*火狐*/ 
+    background:-webkit-gradient(linear, 80% 20%, 0% 0%,from(#c9a3e2), to(#9bbbe3));/*谷歌*/ 
+    background: -webkit-gradient(linear, 80% 20%, 0% 0%, from(#c9a3e2), to(#9bbbe3));      /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(left, #c9a3e2,#9bbbe3);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(left, #c9a3e2, #9bbbe3);  /*Opera 11.10+*/
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	margin-top:10px;
+}

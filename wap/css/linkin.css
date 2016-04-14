@@ -1,0 +1,58 @@
+.bind {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.bind .option {
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	border:1px #fff solid;
+	margin:20px;
+	background:rgba(64,64,64,0.4);
+}
+
+.bind .option:hover, .bind .option:active {
+	background-color: rgba(225,225,225,.4);
+}
+
+.option img {
+	margin-top: 8px;
+}
+
+.option .name {
+	font-size: 80%;
+}
+
+form#xmu-form {
+	margin: 20px auto;
+	width: 50%;
+	text-align: center;
+}
+
+form#xmu-form input {
+	width: 95%;
+	height: 40px;
+	border: #fff 1px solid;
+	background-color: rgba(64,64,64,0.4);
+	border-radius: 5px;
+	margin: 10px auto 0 auto;
+	padding: 0 10px;
+	font-size: 150%;
+}
+
+form#xmu-form input:focus {
+	background-color: rgba(255, 204, 51, .4);
+}
+
+form#xmu-form .button {
+	margin: 15px 0px 10px 10px;
+	width: 35%;
+	float: left;
+}
+
+.buttons {
+	width: 120%;
+	margin:0 auto;
+}

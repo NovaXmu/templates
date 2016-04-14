@@ -1,0 +1,141 @@
+/**
+ * 校庆留言榜Version1.0
+ * @author Echo
+*/
+
+/*******页面跳转******/
+
+index.tpl
+url:/anniversary/message
+返回数据:
+留言总数$count
+世界地图坐标$worldLoc = array(
+'0' => array(
+    'latitude' => '120',
+    'longitude' => '118.10388'
+    ),
+'...' => array('...')
+);
+中国地图坐标$chinaLoc = array(
+'0' => array(
+    'latitude' => '120',
+    'longitude' => '118.10388'
+    ),
+'...' => array('...')
+);
+留言弹幕$messageList = array(
+'0' => array(
+    'id' => '1',
+    'content' => 'happy birthday',
+    'time' => '2016-03-21 10:53:00',
+    'isPassed' => '1'
+    ),
+'1' => array(
+    'id' => '2',
+    'content' => 'happy birthday',
+    'time' => '2016-03-21 10:53:00',
+    'isPassed' => '1'
+    ),
+'...' => array('...')
+);
+
+#待定——————校友信息info.tpl#
+url:/anniversary/message?m=info
+返回数据:
+
+取消不需要绑定了#审核人员绑定页面linkin.tpl#
+url:/anniversary/message?m=linkin
+返回数据:无
+
+#审核列表audit.tpl#
+url:/anniversary/message?m=audit
+返回数据: 待审核留言$list = array(
+'0' => array(
+    'id' => '1',
+    'content' => 'happy birthday',
+    'time' => '2016-03-21 10:53:00',
+    'isPassed' => '0'
+    ),
+'1' => array(
+    'id' => '2',
+    'content' => 'happy birthday',
+    'time' => '2016-03-21 10:53:00',
+    'isPassed' => '0'
+    ),
+'...' => array('...')
+);
+
+
+/*******数据接口******/
+
+#添加留言#
+url:/anniversary/api/message?m=addMessage
+参数: content(留言内容，字符数限制在50以内)
+    name(可选，姓名)
+    identity(可选，身份)
+    enrollmentYear(可选，年份)
+返回数据:array('errno'=>'1'/'0', errmsg='参数错误'/'ok')
+
+#获取弹幕留言#
+url:/anniversary/api/message?m=getMoreMessage
+参数: page(第几次获取留言,值为[2, ^])
+返回数据:共20条数据 array('errno' => '0' 'errmsg' => array(
+'count' => ’1234',//留言总数
+'list' => array(
+        '0' => array(
+            'id' => '1',
+            'content' => 'happy birthday',
+            'time' => '2016-03-21 10:53:00',
+            'isPassed' => '0'
+            ),
+        '1' => array(
+            'id' => '2',
+            'content' => 'happy birthday',
+            'time' => '2016-03-21 10:53:00',
+            'isPassed' => '0'
+            ),
+        '...' => array('...')
+    )
+);/array('errno' => '1', errmsg => '参数错误');
+
+取消#审核人员绑定#
+url:/anniversary/api/message?m=linkin
+参数: telephone(手机号码)
+返回数据:array('errno'=>'1'/'0', errmsg='参数错误/绑定失败'/'ok')
+
+#审核人员获取留言#
+url:/anniversary/api/message?m=getMessageList
+参数: isPassed(-1：审核未通过 0：待审核 1：审核已通过)
+返回数据:array('errno'=>'1', errmsg => '参数错误')
+Or array('errno' => '0', errmsg => array(
+'0' => array(
+    'id' => '1',
+    'content' => 'happy birthday',
+    'time' => '2016-03-21 10:53:00',
+    'isPassed' => '0'
+    ),
+'1' => array(
+    'id' => '2',
+    'content' => 'happy birthday',
+    'time' => '2016-03-21 10:53:00',
+    'isPassed' => '0'
+    ),
+'...' => array('...')
+);
+
+#审核留言#
+url:/anniversary/api/message?m=auditMessage
+参数: messageId(留言id) isPassed(-1：审核未通过 1：审核已通过)
+返回数据:array('errno'=>'1'/'0', errmsg='参数错误/审核失败'/'ok')
+
+#添加审核人员#
+url:/anniversary/api/message?m=addAuditer
+参数:xmu(学号)
+返回数据:array('errno'=>'1'/'0', errmsg='参数错误/添加失败'/'ok')
+
+#设置审核人员#
+url:/anniversary/api/message?m=setAuditer
+参数:auditerId(审核人员Id)
+    isDelete:状态 -1：启用 1：禁用
+返回数据:array('errno'=>'1'/'0', errmsg='参数错误/设置失败'/'ok')
+

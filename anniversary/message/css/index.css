@@ -1,0 +1,72 @@
+body
+{
+    height: 100%;
+    margin: 0;
+
+    background-color: #024c83;
+}
+.title
+{
+    padding-top: 10px;
+
+    text-align: center;
+
+    color: #fff;
+}
+.title img{
+    width: 50px;
+    float: left;
+}
+.title span#spec-title {
+    background-color: #6d0200;
+    padding: 7px 15px 5px 15px;
+    font-size: 20px;
+    font-family: "华文行楷","黑体","微软雅黑";
+}
+.title p{
+    font-family: "微软雅黑","sans-serif";
+    padding:5px;
+}
+.title span#total {
+    color: #3FE817;
+    font-weight: bold;
+    padding:0px 5px 0px 5px;
+}
+#barrage-container
+{
+    height: 20%;
+    max-height: 125px;
+    overflow: hidden;
+}
+#barrage-container div
+{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#send-container
+{
+    position: fixed;
+    bottom: 0;
+
+    margin: 0;
+    padding: 0;
+}
+#send-container .team{
+    color:#fff;
+    font-family: "微软雅黑","sans-serif";
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+}
+button#send{
+    color: #972429;
+    font-weight: bold;
+}
+#infoModal .input-group{
+    margin-bottom: 10px;
+}

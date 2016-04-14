@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>网络文化节抽奖</title>
+        <link href="css/flapper.css" type="text/css" rel="stylesheet" />
+        <script src="src/jquery.min.js"></script>
+        <script src="src/jquery.flapper.js"></script>
+        <script src="src/flapdemo.js"></script>
+
+        <!-- 新 Bootstrap 核心 CSS 文件 -->
+        <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+        <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+        <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+ 
+        <style type="text/css">
+            body {
+                color: #333;
+                background-image: url("background.png");
+                background-size: 100% 100%;
+            }
+
+            .page {
+                width: 1000px;
+                margin: 30px auto 0;
+            }
+
+            h1 {
+                margin-left: 60%;
+                font-size: 48px;
+                color: #EEEEEE;
+                text-shadow: rgb(0, 0, 0), 0.1;
+                font-family: "微软雅黑", "黑体";
+            }
+
+            .displays {
+                border: 10px solid #ccc;
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 30px;
+                box-shadow: 0 0 12px 4px #000 inset;
+                width: 720px;
+                padding-bottom: 10px;
+                margin-left: 25%;
+                margin-top: 70px;
+            }
+
+            .flapper {
+                margin-bottom: 2px;
+                text-align: center;
+            }
+
+            .inputarea {
+                margin: 24px 0;
+            }
+
+            div.inline {
+                display: inline-block;
+                vertical-align: bottom;
+            }
+
+            div.activity {
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background-color: #15FA80;
+                position: relative;
+                top: 36px;
+                left: 8px;
+            }
+
+            div.activity.active {
+                background-color: #f00;
+            }
+
+            #showme {
+                margin-left: 60%;
+                margin-top: 20px;
+            }
+
+            table {
+                background-color: rgba(0, 51, 51, 0.8);
+                border-radius: 20px;
+                width: 600px;
+                height: 300px;
+                overflow-y: scroll;
+                text-align: center;
+            }
+
+            th {
+                color: #EEEEEE;
+                text-align: center;
+            }
+            td {
+                color: #BBBBBB;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page">
+            <h1>网络文化节抽奖</h1>
+            <div class="displays">
+                <div class="activity"></div><input class="display M">
+                
+            </div>
+            <textarea id="typesomething" rows="1" cols="14"></textarea>
+            <button id="showme" type="button" class="btn btn-lg btn-success">抽取三等奖</button>
+            <div class="list">
+                <table>
+                    <tr>
+                        <th>奖项</th>
+                        <th>学号</th>
+                    </tr>
+                    <tr>
+                        <td>一等奖</td>
+                        <td>312335343253</td>
+                    </tr>
+                    <tr>
+                        <td>一等奖</td>
+                        <td>312335343253</td>
+                    </tr>
+                    <tr>
+                        <td>一等奖</td>
+                        <td>312335343253</td>
+                    </tr>
+                    <tr>
+                        <td>一等奖</td>
+                        <td>312335343253</td>
+                    </tr>
+                    <tr>
+                        <td>一等奖</td>
+                        <td>312335343253</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
+

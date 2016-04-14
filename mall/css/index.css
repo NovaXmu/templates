@@ -1,0 +1,104 @@
+body {
+	background-color: #3399cc;
+	color: white;
+}
+#pic img{
+	width: 100%;
+}
+#d div{
+	width:800px;
+}
+#entry p{
+	height: 3px;
+}
+#entry1, #entry2, #entry3{
+	font-size:larger;
+}
+#entry1 p{
+	background-color: rgba(115,170,208,.5);
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+	top: -45px;
+	margin-bottom: -30px;
+}
+#entry1 p img{
+		width: 45px;
+		height: 45px;
+	}
+#entry2 p{
+	background-color: rgba(46,170,113,.5);
+	height: 35px;
+	line-height: 35px;
+	position: relative;
+	top: -35px;
+}
+#entry2 p img{
+	width: 30px;
+}
+.padl{
+	padding-left: 0;
+	padding-right: 5px;
+}
+.padr{
+	padding-right: 0;
+	padding-left: 5px;
+}
+#entry3{
+	
+	height: 35px;
+	line-height: 35px;
+}
+#entry3 p{
+	background-color:rgba(67,173,172,.5);
+	height: 35px;
+	line-height: 35px;
+	position: relative;
+    top: -35px;
+}
+#entry3 p img{
+	width: 30px;
+}
+
+div#showbox {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#carousel {
+	padding-top: 106px;
+	margin-top: 10px;
+  	overflow: hidden;
+  	height: 154px;
+}
+
+#carousel p {
+	margin: 0;
+}
+ 
+#showbox li {
+	list-style: none;
+}
+
+#showbox img {
+	width: 100%;
+}
+
+.crsl-info {
+  	color: #fff;
+  	text-align: center;
+}
+
+span#carousel-left {
+  padding: 40px 0;
+  font-size: 50px;
+ }
+
+ span#carousel-right {
+  padding: 40px 0;
+  font-size: 50px;
+ }
+
+ .arrow  {
+ 	cursor: pointer;
+ }

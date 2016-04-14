@@ -1,0 +1,43 @@
+@import "utils";
+
+.tabs {
+  
+  color: $prim-color;
+  $tab-height: 2em;
+  z-index: 10;
+  position: relative;
+  background: white;
+
+  li {
+    &.disabled a {
+      color: gray;
+    }
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      height: $tab-height;
+      width: 100%;
+      line-height: $tab-height;
+      white-space: nowrap;
+      color: $prim-color;
+      display: inline-block;
+      box-sizing: border-box;
+
+      &.active {
+        border-bottom: 3px solid $prim-color;
+        color: $prim-color;
+      }
+    }
+  }
+}
+
+.sub-tabs {
+  li a {
+    color: #666;
+    border-bottom: 3px solid #ccc;
+    font-size: 16px;
+  }
+}

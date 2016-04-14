@@ -1,0 +1,15 @@
+@import "../App/util";
+
+.bar-outer {
+  margin-top: 5px;
+  width: 70%;
+  height: 15px;
+  background: #ccc;
+  border-radius: 8px;
+
+  .bar-inner {
+    height: 100%;
+    background: $sec-color;
+    border-radius: 8px;
+  }
+}

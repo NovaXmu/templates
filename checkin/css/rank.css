@@ -1,0 +1,95 @@
+#content th
+{
+text-align:center;
+!important
+}
+#content tr:hover
+{
+background:rgba(64,64,64,0.4);
+}
+table{text-align:center;
+!important
+}
+body{   
+	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+	color:#FFf
+!important
+}
+
+a {
+	color:inherit;
+	text-decoration: underline;
+!important
+}
+#header{
+	height: 68px;
+	background-color: black;
+	padding:8px 10px 0 10px;
+!important
+
+}
+
+#header h1 {
+	font-size: 50px;
+	float: left;
+!important
+}
+
+#header span {
+	float:left;
+	font-size: 30px;
+	margin-top: 18px;
+	margin-left: 15px;
+!important
+}
+
+#content{
+	padding:25px 10px;
+	border-bottom: #eee 1px solid;
+!important
+}
+
+#content .wrapper {
+	background-color: rgba(0,0,0,.4);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	padding:5px 5px;
+!important
+}
+
+#content h2.title{
+	text-align: center;
+	font-size: 42px;
+	width:80%;
+	margin:10px auto;
+!important
+}
+
+#footer{
+
+}
+
+#footer .credits{
+	padding:10px 0;
+	border-top:#aaa 1px solid;
+!important
+}
+
+#footer .copyrights{
+	padding:10px 0;
+!important
+	
+}
+#footer p {
+	text-align: center;
+!important
+}
+
+.wrapper {
+	width: 960px;
+	margin:0 auto;
+!important
+}
+

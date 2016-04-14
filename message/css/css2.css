@@ -1,0 +1,295 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	width:100%;
+}
+.return{
+	float:left;
+}
+.return a{
+	text-decoration: none;
+	color:white;
+}
+.head{
+	height:100px;
+	color:white;
+	background-color:#2B3648;
+	line-height:100px;
+	text-align: center;
+	font-size:40px;
+	font-weight: bold;
+}
+.body{
+	height:1650px;
+	background:linear-gradient(to bottom,#3A495C,#9DC02E);
+}
+.body-1{
+	height:100px;
+}
+.yuan{
+	width:100px;
+	height:100px;
+	border-radius: 50px;
+	background-color:#8C969F;
+	float:right;
+	margin-right:50px;
+	margin-top:20px;
+    
+
+}
+.yuan i{
+	display: block;
+	margin-left:40px;
+	margin-top:10px;
+	color:#28323E;
+	
+
+}
+.body-2{
+	height:50px;
+	width:90%;
+	margin-left:5%;
+	line-height: 60px;
+	border-bottom:2px solid #788983;
+}
+.body-3{
+	width:90%;
+	margin-left: 10%;
+	height:1500px;
+	border-left:2px solid white;
+}
+.body-4{
+	width:80%;
+	height:100px;
+	margin-left:10%;
+	line-height: 170px;
+	border-bottom:2px solid white;
+}
+.body-5{
+	width:80%;
+	height:600px;
+	margin-left:10%;
+	opacity:0.3;
+	background-color:white;
+	margin-top:20px;
+	border-radius: 20px;
+	padding-top:30px;
+	overflow: hidden;
+
+}
+.body-6{
+	height:40px;
+	width:150px;
+	background-color:#8E98A1;
+	border-radius: 10px;
+	float:left;
+	color:white;
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+
+}
+.body-7{
+	float:left;
+	margin-left:10px;
+	font-size:30px;
+
+}
+.body-8{
+	height:40px;
+	width:150px;
+	background-color:#8E98A1;
+	float:right;
+	border-radius: 10px;
+	color:white;
+	font-size:30px;
+	line-height: 40px;
+	text-align: center;
+}
+.body-9{
+	height:40px;
+	width:70px;
+	background-color:#8E98A1;
+	float:right;
+	border-radius: 10px;
+	color:white;
+	font-size:30px;
+	line-height: 40px;
+	text-align: center;
+	margin-left:10px;
+}
+.body-10{
+	height:40px;
+	width:70px;
+	background-color:#8E98A1;
+	float:right;
+	border-radius: 10px;
+	color:white;
+	font-size:30px;
+	line-height: 40px;
+	text-align: center;
+	margin-left:10px;
+}
+.li-1{
+	width:90%;
+	margin-left:5%;
+	height:40px;
+	list-style-type: none;
+	line-height: 40px;
+	border-bottom:1px solid black;
+	padding-bottom:10px;
+	margin-bottom:50px;
+
+}
+h1,h2{
+	display:inline-block;
+	font-weight: bold;
+	color:white;
+}
+#special{
+	width:70%;
+	height:300px;
+	background-color:white;
+	position: absolute;
+	left:20%;
+	top:750px;
+	opacity: 1;
+	display: none;
+}
+#sp-div{
+	position:absolute;
+	background-color:gray;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+	left:0px;
+	top:0px;
+    z-index:1000;
+}
+#sp-div1{
+	position:absolute;
+	background:linear-gradient(to bottom,#3A495C,#9DC02E);
+	left:0;
+	top:0;
+	z-index: 1001;
+	border-radius: 20px;
+}
+#sp-div1 div{
+	width:300px;
+	height:40px;
+	font-size:20px;
+	margin-top:50px;
+	color:white;
+	line-height: 40px;
+	margin-left:100px;
+	border-bottom:2px solid white;
+}
+#sp-div1 textarea{
+	margin-top:10px;
+	height:150px;
+	margin-left:100px;
+	width:300px;
+	display: block;
+	border-radius: 10px;
+	font-size:30px;
+	color:blue;
+}
+.background{
+	position:absolute;
+	width:100%;
+	height:1750px;
+	background-color:black;
+	opacity:0.9;
+	z-index:1000;
+	top:0;
+	left:0;
+
+}
+.panel-message{
+	position:absolute;
+	width:80%;
+	height:1200px;
+	margin-left:10%;
+	margin-top:300px;
+	background-color:gray;
+	z-index:1001;
+	opacity:1;
+	border-radius:40px;
+}
+.panel-message h1{
+	color:black;
+	margin-left:10%;
+	margin-top:50px;
+}
+.panel-message .underline{
+	width:80%;
+	margin-left:10%;
+	border-bottom:1px solid black;
+}
+.panel-message .myleave-message{
+	height:100px;
+	width:90%;
+	margin-left:5%;
+	margin-top:50px;
+	background-color:white;
+
+}
+ h2{
+	color:black;
+}
+.message-detail{
+	font-size:20px;
+	margin-left:10%;
+	font-weight:bold;
+}
+.admin-container{
+	width:90%;
+	height:900px;
+	margin-left:10%;
+	border-left:1px solid black;
+	
+
+}
+.message-ul{
+	margin-top:20px;
+
+}
+.message-ul li{
+	position:relative;
+	width:80%;
+	height:100px;
+	background-color:white;
+	margin-left:5%;
+	list-style-type:none;
+	margin-bottom:30px;
+
+}
+.myleave-message{
+   position:relative;
+}
+.usertime{
+	position:absolute;
+	right:2%;
+	bottom:2%;
+	font-weight:bold;
+}
+.adminclass{
+	position:absolute;
+	right:10%;
+	bottom:2%;
+	font-weight:bold;
+
+}
+.message-ul li input{
+	position:absolute;
+	background-color:#535D6A;
+	color:white;
+	width:6%;
+	height:20px;
+	right:1%;
+	bottom:2%;
+	border:0;
+	cursor:pointer;
+	font-weight:bold;
+}

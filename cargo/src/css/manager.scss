@@ -1,0 +1,84 @@
+@import "utils";
+
+#manager {
+	overflow: auto;
+	text-align: center;
+	display: flex;
+	.content {
+		overflow: auto;
+		margin-top: 5px;
+    flex: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 90px;
+    top: 0;
+    padding-right: 90px;
+    padding-top: 72px;
+    padding-bottom:10px;
+    box-sizing: border-box;
+    
+		li {
+			padding: 8px 5px;
+			border-bottom: 1px solid #ccc;
+			line-height: 2;
+			text-align: left;
+			
+			h2 {
+				font-size: 18px;
+				
+				&::before {
+					font-family: "iconfont";
+					font-size: 15px;
+					line-height: 18px;
+					margin-right: 0.3em;
+				}
+			}
+			
+			&.take {
+				h2::before {
+					content: "\e604";
+				}
+			}
+			
+			&.borrow {
+				h2::before {
+					content: "\e602";
+				}
+			}
+			
+			&.new {
+				h2::before {
+					content: "\e603";
+				}
+			}
+			
+			p {
+				color: $prim-color;
+			}
+		}
+	}
+	
+	.menu li:last-child {
+		color: #666;
+		
+		&.active {
+			color: $prim-color;
+		}
+	}
+	
+	.menu li.sub {
+		padding: 0 5px;
+		background-color: #B5B5B5;
+
+		&.active {
+			background-color: white;
+		}
+	}
+}
+
+.create-new {
+  .row {
+ 		color: $prim-color;
+  }
+}

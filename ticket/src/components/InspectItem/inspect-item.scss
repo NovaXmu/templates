@@ -1,0 +1,53 @@
+@import "../App/util";
+
+.inspect-item {
+  margin-top: 12px;
+  position: relative;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background: white;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  header {
+    background-color: $prim-color;
+    color: white;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 20px;
+    border-top-right-radius: 12px;
+    overflow: hidden;
+    
+    
+  }
+
+  &>p,&>section {
+    font-size: 15px;
+    border-bottom: 2px dashed #dcdcdc;
+    line-height: 1.5;
+    position: relative;
+    padding: 10px;
+    font-size: 12px;
+    color: #333;
+
+    &.hide {
+      height: 0;
+      padding: 0 10px;
+      border-bottom: 0px dashed #dcdcdc;
+      overflow: hidden;
+    }
+
+    @include circle;
+
+    &.footer {
+      text-align: center;
+
+      button {
+        font-size: 20px;
+      }
+    }
+  }
+
+}

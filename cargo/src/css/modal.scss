@@ -1,0 +1,15 @@
+.modal {
+	width: 70%;
+	position: fixed;
+	top: 200px;
+	left: 50%;
+	transform: scale(0) translate(-50%, 0);
+	background: #fff;
+	transition: all .5s;
+	z-index: 1100;
+	
+	&.show {
+		transform: scale(1) translate(-50%, 0);
+		min-height: 100px;
+	}
+}

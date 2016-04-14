@@ -1,0 +1,22 @@
+.project{
+	border-right: solid;
+	border-bottom: solid;
+    border-color: #fff;
+	padding:10px;
+	height:150px;
+	background-color: #f7f7f7;
+}
+.project_desc{
+	padding-right:0px;
+}
+.project_name,.project_brief,.project_start,.project_end{
+	text-align: left;
+}
+.project_brief{
+	padding-top:3px;
+}
+.project_brief p{
+	height:40px;
+	line-height:20px;
+	overflow:hidden;
+}

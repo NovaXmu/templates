@@ -1,0 +1,74 @@
+#ceiling {
+    background: -moz-linear-gradient(top, #ae88c7, #74abc9); /*Mozilla*/
+    background: -webkit-gradient(linear, 50% 0, 50% 100%, from(#ae88c7), to(#74abc9)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(top, #ae88c7, #74abc9); /*new gradient for Webkit*/
+    background: -o-linear-gradient(top, #ae88c7, #74abc9); /*Opera11*/
+    height: 100px;
+}
+
+#avatar {
+    position: relative;
+    margin-bottom: 30px;
+    top: 33px;
+}
+
+#avatar .wrap {
+    width: 36%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#avatar .wrap img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#list {
+    overflow: hidden;
+}
+
+#list ul {
+    -webkit-padding-start: 0;
+    position: relative;
+}
+
+#list li.quiz {
+    text-align: center;
+    margin: 20px 10px;
+    display: inline-block;
+    float: left;
+}
+
+.question {
+    padding: 0 10px;
+    margin: 10px 0;
+    color:#959595;
+    font-size: 120%;
+}
+
+li.option {
+    margin: 25px auto;
+    background-color: #959595;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+}
+
+li.option:hover {
+    cursor: pointer;
+}
+
+li.option.chosen {
+    font-size: 120%;
+    background: -moz-linear-gradient(left, #74abc9, #ae88c7); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#74abc9), to(#ae88c7)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #74abc9, #ae88c7); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #74abc9, #ae88c7); /*Opera11*/
+}
+
+#d {
+    color: #afb2b2;
+}

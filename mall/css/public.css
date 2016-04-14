@@ -1,0 +1,133 @@
+body {
+	font-family: 'Microsoft YaHei', 'Helvetica', 'Arial';
+	background-color: #3399cc;
+	color: white;
+}
+
+a{
+	color: inherit;
+}
+
+li{
+	list-style: none;
+}
+
+a:hover, a:active, a:focus{
+    text-decoration: none;
+    color: #bbb;
+}
+
+a.glyphicon.glyphicon-home {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: rgba(255,255,255,0.5);
+  font-size: 18px;
+}
+
+a.glyphicon.glyphicon-home:hover, a.glyphicon.glyphicon-home:active, a.glyphicon.glyphicon-home:focus {
+  color: rgba(255,255,255,1);
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+#main {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#content{
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+#header{
+	background: url(img/xmu.png) no-repeat center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 28px;
+	text-align: center;
+}
+
+#header h2 {
+	font-size: initial;
+}
+
+#avatar{
+	width: 100%;  
+    padding: 0;
+}
+
+#mine-entry {
+	display: block;
+    width: 28%;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid rgba(111,111,111,.5);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#mine-entry p{
+	background-color:rgba(0,0,0,.5);
+	height: 35px;
+	line-height: 35px;
+	position: relative;
+    top: -35px;
+    font-size: small;
+}
+
+img#balance-logo {
+  width: 60px;
+}
+
+#footer{
+
+}
+
+#footer .credits{
+	padding:10px 0;
+	border-top:#aaa 1px solid;
+}
+
+#footer p {
+	text-align: center;
+}
+
+.tri {
+	position: absolute;
+	font-size:30px;
+	color: #fff;
+	top: -30px;
+  left: 22px;
+}
+
+.bg{
+	position: relative;
+	 margin-top: 20px;
+	 background-color:#ffffff;
+	 color: rgba(153,153,153,1);
+	 width: 100%;
+	 padding-top: 30px;
+	 padding-bottom: 30px;
+ }
+
+
+.bg::before {
+	content: "";
+	border-top: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid #fff;
+	border-left: 10px solid transparent;
+	position: absolute;
+	top: -28px;
+	left: 20px;
+}
+
+.not-xmu a {
+	text-decoration: underline;
+	font-size: large;
+}

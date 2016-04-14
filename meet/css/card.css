@@ -1,0 +1,77 @@
+#list {
+    overflow: hidden;
+}
+
+#list ul {
+    -webkit-padding-start: 0;
+    position: relative;
+}
+
+#list li.act {
+    width: 400px;
+    margin: 20px 10px;
+    float: left;
+}
+.top span{
+    color:#9991e8;
+    font-size:20px;
+}
+.top p{
+    color:#b2b2b7;
+    margin-top:10px;
+}
+.info{
+    min-height:250px;
+    background-color: #fff;
+    margin-top:20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding:10px;
+    text-align: left;
+}
+
+.card {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-transition: all .5s;
+    -moz-transition: all  .5s;
+    -o-transition: all  .5s;
+    transition: all  .5s;
+}
+
+.current .card {
+    -webkit-box-shadow: 0 0 5px hsla(0,0%,80%,5);
+    -moz-box-shadow: 0 0 5px hsla(0,0%,80%,5);
+    box-shadow: 0 0 5px hsla(0,0%,80%,5);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.info label{
+    padding:8px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: inherit;
+    color:#fff;
+    background-color: #ccd0d2;
+
+}
+.act .bottom {
+    font-size: 120%;
+    color: #fff;
+    text-align: right;
+    padding: 10px 20px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: -moz-linear-gradient(left, #689ebd, #a27bba); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#689ebd), to(#a27bba)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #689ebd, #a27bba); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #689ebd, #a27bba); /*Opera11*/
+}
+
+.act .bottom:hover {
+    cursor: pointer;
+}
+
